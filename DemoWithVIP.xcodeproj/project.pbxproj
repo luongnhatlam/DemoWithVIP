@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		F875590C1FA078000098549D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F875590B1FA078000098549D /* AppDelegate.swift */; };
-		F875590E1FA078000098549D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F875590D1FA078000098549D /* ViewController.swift */; };
 		F87559111FA078000098549D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F875590F1FA078000098549D /* Main.storyboard */; };
 		F87559131FA078000098549D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87559121FA078000098549D /* Assets.xcassets */; };
 		F87559161FA078000098549D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87559141FA078000098549D /* LaunchScreen.storyboard */; };
+		F8F2A8771FA1D29F00CBAB37 /* CounterConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F2A8701FA1D29F00CBAB37 /* CounterConfigurator.swift */; };
+		F8F2A8781FA1D29F00CBAB37 /* CounterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F2A8711FA1D29F00CBAB37 /* CounterInteractor.swift */; };
+		F8F2A8791FA1D29F00CBAB37 /* CounterModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F2A8721FA1D29F00CBAB37 /* CounterModels.swift */; };
+		F8F2A87A1FA1D29F00CBAB37 /* CounterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F2A8731FA1D29F00CBAB37 /* CounterPresenter.swift */; };
+		F8F2A87B1FA1D29F00CBAB37 /* CounterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F2A8741FA1D29F00CBAB37 /* CounterRouter.swift */; };
+		F8F2A87C1FA1D29F00CBAB37 /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F2A8751FA1D29F00CBAB37 /* CounterViewController.swift */; };
+		F8F2A87D1FA1D29F00CBAB37 /* CounterWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F2A8761FA1D29F00CBAB37 /* CounterWorker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F87559081FA078000098549D /* DemoWithVIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoWithVIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F875590B1FA078000098549D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F875590D1FA078000098549D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F87559101FA078000098549D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F87559121FA078000098549D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F87559151FA078000098549D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F87559171FA078000098549D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8F2A8701FA1D29F00CBAB37 /* CounterConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterConfigurator.swift; sourceTree = "<group>"; };
+		F8F2A8711FA1D29F00CBAB37 /* CounterInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterInteractor.swift; sourceTree = "<group>"; };
+		F8F2A8721FA1D29F00CBAB37 /* CounterModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterModels.swift; sourceTree = "<group>"; };
+		F8F2A8731FA1D29F00CBAB37 /* CounterPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterPresenter.swift; sourceTree = "<group>"; };
+		F8F2A8741FA1D29F00CBAB37 /* CounterRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterRouter.swift; sourceTree = "<group>"; };
+		F8F2A8751FA1D29F00CBAB37 /* CounterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
+		F8F2A8761FA1D29F00CBAB37 /* CounterWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterWorker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,28 @@
 		F875590A1FA078000098549D /* DemoWithVIP */ = {
 			isa = PBXGroup;
 			children = (
+				F8F2A86D1FA1D27700CBAB37 /* CounterScene */,
 				F875590B1FA078000098549D /* AppDelegate.swift */,
-				F875590D1FA078000098549D /* ViewController.swift */,
 				F875590F1FA078000098549D /* Main.storyboard */,
 				F87559121FA078000098549D /* Assets.xcassets */,
 				F87559141FA078000098549D /* LaunchScreen.storyboard */,
 				F87559171FA078000098549D /* Info.plist */,
 			);
 			path = DemoWithVIP;
+			sourceTree = "<group>";
+		};
+		F8F2A86D1FA1D27700CBAB37 /* CounterScene */ = {
+			isa = PBXGroup;
+			children = (
+				F8F2A8701FA1D29F00CBAB37 /* CounterConfigurator.swift */,
+				F8F2A8711FA1D29F00CBAB37 /* CounterInteractor.swift */,
+				F8F2A8721FA1D29F00CBAB37 /* CounterModels.swift */,
+				F8F2A8731FA1D29F00CBAB37 /* CounterPresenter.swift */,
+				F8F2A8741FA1D29F00CBAB37 /* CounterRouter.swift */,
+				F8F2A8751FA1D29F00CBAB37 /* CounterViewController.swift */,
+				F8F2A8761FA1D29F00CBAB37 /* CounterWorker.swift */,
+			);
+			path = CounterScene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F875590E1FA078000098549D /* ViewController.swift in Sources */,
+				F8F2A8771FA1D29F00CBAB37 /* CounterConfigurator.swift in Sources */,
+				F8F2A87A1FA1D29F00CBAB37 /* CounterPresenter.swift in Sources */,
+				F8F2A8791FA1D29F00CBAB37 /* CounterModels.swift in Sources */,
+				F8F2A8781FA1D29F00CBAB37 /* CounterInteractor.swift in Sources */,
 				F875590C1FA078000098549D /* AppDelegate.swift in Sources */,
+				F8F2A87D1FA1D29F00CBAB37 /* CounterWorker.swift in Sources */,
+				F8F2A87C1FA1D29F00CBAB37 /* CounterViewController.swift in Sources */,
+				F8F2A87B1FA1D29F00CBAB37 /* CounterRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +336,7 @@
 				F875591C1FA078000098549D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
